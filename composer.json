@@ -1,0 +1,21 @@
+{
+    "name": "crist/prueba-sql",
+    "authors": [
+        {
+            "name": "C-jimenez21",
+            "email": "cristianjjc21@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":[
+                "./scripts/db",
+                "./scripts/coche"
+            ]
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "bramus/router": "~1.6"
+    }
+}
